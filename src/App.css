@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.trvl-txtStyle-ss{
+    border-radius: 4px;
+    background-color: #ffffff !important;
+    border: solid 1px #e8edf4 !important;
+    width: 100% !important;
+   
+    color: #16325c !important;
+    opacity: 1 !important;
+}
+.trvl-txtStyle-ss .Select-control{
+    border: none !important;
+    padding: 2px 20px !important;
+}
+.trvl-txtStyle-ss .Select-control:focus{
+    border: none !important;
+    padding: 2px 8px !important
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
